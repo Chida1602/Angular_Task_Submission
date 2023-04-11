@@ -1,0 +1,30 @@
+#clock {
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    position: absolute;
+    height: 100px;
+width: 360px;
+background: rgb(240, 237, 237);
+border-radius:10px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 999;
+height: 85px;
+width: 345px;
+text-align: center;
+line-height: 85px;
+color: #e40b0b;
+font-size: 50px;
+font-weight: 600;
+letter-spacing: 1px;
+  }
+
+
+
+/* *{
+    margin: 0%;  
+    top: 0%;
+} */

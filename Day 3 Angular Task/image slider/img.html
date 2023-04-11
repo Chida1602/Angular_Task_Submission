@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var i=0;
+        var images=[];
+        var time =300;
+
+        images[0] = "dhoni.jpg";
+        images[1] = "abd.jpg";
+        images[2] = "kane mama.jpg";
+        images[3] = "virat.jpg";
+        images[4] = "warner.jpg";
+
+        function changeImg(){
+            document.slide.src = images[i];
+            if(i<images.length-1){
+                i++;
+            }else{
+                i=0;
+            }
+            setTimeout("changeImg()",time);
+            }
+            window.onload =changeImg
+    </script>
+</head>
+<body>
+    <h1>Favorite Cricketers</h1>
+    <center><img src="dhoni.jpg" id="slide" width="500px" height="500px"></center>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image slide show</title>
+     <script type="text/javascript">
+        
+        // var time = 2000;
+
+        function changeImg(){
+           
+            if(i<=images.length-1){
+                document.getElementById("slide").src=images[i]
+                i++;
+            }
+            else{
+                i=0;
+            }
+        }
+        function starttimer(){
+            setInterval(changeImg,2000);
+        }
+        var i=0;
+        var images=["dhoni.jpg","Virat.jpg","kane mama.jpg","warner.jpg","abd.jpg"];
+        // setInterval(changeImg(),time);
+        // window.onload=changeImg;
+    </script>
+</head>
+<body onload ="starttimer()">
+     <img src="dhoni.jpg" width="500px" height="500px"> -->
+    <!-- <script type="text/javascript">
+        
+        // var time = 2000;
+        function changeImg(){
+
+
+            if(i< images.length-1){
+                document.getElementById("slide").src=images[i]
+                i++;
+            }
+            else{
+                i=0;
+            }
+        }
+        function starttimer(){
+            setInterval(changeImg(),2000);
+        }
+        var i=0;
+        var images=["dhoni.jpg","Virat.jpg","Kane.jpg","warner.jpg","raina.jpg","hardik.jpg"];
+        // setInterval(changeImg(),time);
+        // window.onload=changeImg;
+    </script> -->
+  <!-- <center><img src="dhoni.jpg" id="slide" width="500px" height="500px"></center>  
+  
+  
+
+</body>
+</html> --> 

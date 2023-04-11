@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <title>Popup Design</title>
+        <link rel="stylesheet" href="day2.css">
+</head>   I
+<body>
+        <div class="container">
+                <button type="submit" class="btn" onclick="openPopup()">Submit</button> 
+                <div class="popup" id="popup">
+                        <div class="close-button">&times;</div>
+                <form>
+                    <h3>Employee Registration Form</h3>
+                    <div class="form-element">
+                        <label>First Name: </label>
+                        <input type="text" placeholder=" Enter first name" name="fname" required>
+                    </div>
+                    <div class="form-element">
+                        <label>Last Name: </label>
+                        <input type="text" placeholder=" Enter last name" name="fname" required>
+                    </div>
+                    <div class="form-element">
+                        <label>Age: </label>
+                        <input type="number" name="age" required>
+                    </div>
+                    <div class="form-element">
+                        <label>Experience: </label>
+                        <input type="number" name="exp" required>
+                    </div>  
+                    <div class="form-element">
+                        <label>Gender: </label> 
+                        <br>  
+                        <input type="radio" name="Gender"/> Male 
+                        <input type="radio" name="Gender"/> Female  
+                        <input type="radio" name="Gender"/> Other  
+                        <br>
+                    </div> 
+                    <div class="form-element">
+                        <label>Date-of-Birth: </label>
+                        <input type="date" name="Date of Birth">
+                    </div>
+                    <div class="form-element">
+                        <label>About Me</label>
+                        <textarea rows="" col=""> </textarea>
+                    </div>
+                    <div class="form-element">
+                        <label>Contact No. :  </label>  
+                        <input type="text" name="country code"  value="+91" size="2"/>   
+                        <input type="text" name="phone" size="10"/> <br> <br> 
+                    </div>
+                    <div class="form-element">
+                        <label>Skills: </label> 
+                        <select>  
+                        <option value="Course">Course</option>  
+                        <option value="HTML">HTML</option>  
+                        <option value="CSS">CSS</option>  
+                        <option value="JAVASCRIPT">JAVASCRIPT</option>  
+                        <option value="ANGULAR">ANGULAR</option>   
+                        </select>
+                    </div>     
+                <button type="button"  onclick="closePopup()">Signup</button>
+                </div>
+        </div>
+<script> 
+let popup = document.getElementById("popup");
+function openPopup(){
+        popup.classList.add("open-popup");      
+}
+function closePopup(){
+        popup.classList.remove("open-popup");  
+}        
+</script>
+</body> 
+</html>
