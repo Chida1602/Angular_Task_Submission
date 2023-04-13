@@ -1,0 +1,39 @@
+.middle
+{
+    background-image: url("http://localhost/lop.jpg");
+    height: 20rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: -290px;
+
+}
+.title
+{
+    padding: 2% 3%;
+   color: #fff;
+}
+a:hover
+{
+    background-color: #16223c;
+    border-radius: 10px;
+}
+.next{
+    float:right;
+    margin-top: 45px;
+    size: 30px;
+    font-size: 35px;
+}
+.prev
+{
+    float:left;
+    margin-top: 45px;
+    size: 30px;
+    font-size: 35px;
+}
+.text p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-style: bold;
+    color: #fff;
+}
