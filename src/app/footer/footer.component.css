@@ -1,0 +1,21 @@
+
+.contents{
+    background-color: #27c634;
+    display: flex;
+    width : 100%;
+    height:10%;
+    }
+     .box{
+    display: flex;
+    } 
+    .box img{
+    width: 30px;
+    height: 30px;
+    
+    }
+    .text p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-style: bold;
+    color: #fff;
+    }
