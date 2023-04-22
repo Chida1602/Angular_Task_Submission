@@ -1,0 +1,24 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+.price{
+    margin: 1rem;
+    font-weight: bolder;
+}
+.image{
+  width: 300px;
+  height: 250px;
+}
+.btn{
+
+ padding: 4px;
+ border-radius: 15%;
+ /* background-color: rgb(215, 227, 59); */
+ background-color : yellow;
+ 
+}
+.typ{
+font-weight: 600;
+padding-top:10px;
+}
