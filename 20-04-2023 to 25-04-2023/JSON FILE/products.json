@@ -1,0 +1,115 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Facecream",
+      "price": 2500,
+      "type": "Cosmetics",
+      "desc": "Its is a nice watch which was worn by james bond movie hero",
+      "image": "ch.jpg"
+    },
+    {
+      "id": 2,
+      "name": "LG Fridge",
+      "price": 4500,
+      "type": "Electronics",
+      "desc": "Its is a nice earpods which was worn by all",
+      "image": "fridge.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Python Programming",
+      "price": 1030,
+      "type": "books",
+      "desc": "Its is a nice rice which wasso popular",
+      "image": "pyth.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dry Fruits Combo Pack ",
+      "price": 1700,
+      "type": "Groceries",
+      "desc": "Its is a nice comic which was by manga",
+      "image": "nut.jpg"
+    },
+    {
+      "id": 5,
+      "name": "AirPods_3rd_generation",
+      "price": 3500,
+      "type": "Electronics",
+      "desc": "Its is a nice airpods which was used by james bond movie hero",
+      "image": "pods.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Nutriwish Steel Cut Oats (200G)",
+      "price": 115,
+      "type": "Groceries",
+      "desc": "Its is a nice Oats which was used to weight loss",
+      "image": "oats.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Data Stuctures using C",
+      "price": 999,
+      "type": "Books",
+      "desc": "Its is a nice watch which was worn by james bond movie hero",
+      "image": "datastructure.jpg"
+    },
+    {
+      "id": 8,
+      "name": "MOROCCAN ARGAN HAIR SHAMPOO",
+      "price": 1600,
+      "type": "Cosmetics",
+      "desc": "Its is a nice anime which was written by manga",
+      "image": "shampoo.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Angular for Beginners",
+      "price": 940,
+      "type": "Books",
+      "desc": "Its is a nice deodorant which was worn by james bond movie hero",
+      "image": "java.jpg"
+    },
+    {
+      "id": 10,
+      "name": "i-phone 14 pro",
+      "price": 4300,
+      "type": "Electronics",
+      "desc": "Its is a nice Laptop which was worn by james bond movie hero",
+      "image": "vignes.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Mamaearth Complete Skin Glow Kit",
+      "price": 290,
+      "type": "Cosmetics",
+      "desc": "Its is a nice seeerum which was worn by james bond movie hero",
+      "image": "mama.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 6650,
+      "fname": "chida",
+      "email": "chida@gmail.com",
+      "message": "taste is goodnjkqdkhej",
+      "product": "Dry Fruits Combo Pack "
+    },
+    {
+      "id": 2726,
+      "fname": "rakesh",
+      "email": "rake@gmail.com",
+      "message": "it is a good book for beginners",
+      "product": "Python Programming"
+    },
+    {
+      "id": 8032,
+      "fname": "sai",
+      "email": "sai@gmail.com",
+      "message": "it is good for people who are dieting",
+      "product": "Nutriwish Steel Cut Oats (200G)"
+    }
+  ]
+}
